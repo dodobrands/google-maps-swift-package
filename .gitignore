@@ -1,0 +1,6 @@
+.DS_Store
+Build/checksum
+Build/*.zip
+Downloaded-XCFrameworks/*.tar.gz
+Downloaded-XCFrameworks/*.xcframework
+xcuserdata/
