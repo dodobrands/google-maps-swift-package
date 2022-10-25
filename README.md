@@ -6,4 +6,4 @@
 
 Этот репозиторий создан с оглядкой на имеющиеся на GitHub проекты ([раз](https://github.com/YAtechnologies/GoogleMaps-SP) и [два](https://github.com/dplisek/GoogleMaps-SP)). Спасибо их создателям за проделанную работу.
 
-Google Maps iOS SDK распространяется [под собственной лицензией](https://github.com/dodopizza/google-maps-swift-package/LICENSE.google).
+Google Maps iOS SDK распространяется [под собственной лицензией](https://github.com/dodopizza/google-maps-swift-package/blob/main/LICENSE.google).
