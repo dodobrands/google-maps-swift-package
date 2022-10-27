@@ -1,6 +1,7 @@
 .DS_Store
-Build/checksum
-Build/*.zip
+.build/
+.swiftpm/
+Build/
 Downloaded-XCFrameworks/*.tar.gz
 Downloaded-XCFrameworks/*.xcframework
 xcuserdata/
