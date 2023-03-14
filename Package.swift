@@ -29,18 +29,18 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleMaps",
-            url: "https://github.com/dodopizza/google-maps-swift-package/releases/download/7.1.0/GoogleMaps.xcframework.zip",
-            checksum: "896e29a01fb02bb336dcdc4c5790f20dafa8b57d9f16ad4ea40d13bd66f6bf44"
+            url: "https://github.com/dodopizza/google-maps-swift-package/releases/download/7.4.0/GoogleMaps.xcframework.zip",
+            checksum: "36ae88850a73a9da82563d0f6053ae3d762f3510e2440034bdc03fc76936eb6f"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/dodopizza/google-maps-swift-package/releases/download/7.1.0/GoogleMapsBase.xcframework.zip",
-            checksum: "abdde00b009e88013211bcf9ca7b09825e1362118f789a1b5dc837aff4e591dd"
+            url: "https://github.com/dodopizza/google-maps-swift-package/releases/download/7.4.0/GoogleMapsBase.xcframework.zip",
+            checksum: "c412d05613165dd939887288f91205486a93da36eac77dc791e26bdf8f2598f7"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/dodopizza/google-maps-swift-package/releases/download/7.1.0/GoogleMapsCore.xcframework.zip",
-            checksum: "9c4ea408dc441df219c1fcaedbef51fa142603c56e918be3fb68f8817aa28507"
+            url: "https://github.com/dodopizza/google-maps-swift-package/releases/download/7.4.0/GoogleMapsCore.xcframework.zip",
+            checksum: "4396d4e685d936d2b32fac24e8aa8d59b377067ffc78cab25a622a12cc8ad1b1"
         ),
     ]
 )
