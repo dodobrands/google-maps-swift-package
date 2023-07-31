@@ -132,7 +132,7 @@
 		21063E2329066B4900BC871F /* GoogleMapsBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapsBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21063E2F29066B6400BC871F /* GoogleMapsCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapsCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21063E3729066E9E00BC871F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
-		21063E3829066E9E00BC871F /* GoogleMaps */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMaps; path = "../../Downloaded-XCFrameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/GoogleMaps"; sourceTree = "<group>"; };
+		21063E3829066E9E00BC871F /* GoogleMaps */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GoogleMaps; sourceTree = "<group>"; };
 		21063E3A29066E9E00BC871F /* GMSPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaView.h; sourceTree = "<group>"; };
 		21063E3B29066E9E00BC871F /* GMSAccessibilityLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAccessibilityLabels.h; sourceTree = "<group>"; };
 		21063E3C29066E9E00BC871F /* GMSIndoorBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSIndoorBuilding.h; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 		21063EAE29066F7B00BC871F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
 		21063EBD2906703900BC871F /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/usr/lib/libc.tbd; sourceTree = DEVELOPER_DIR; };
 		21063EBF2906703E00BC871F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
-		21063EC2290670E300BC871F /* GoogleMapsBase */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsBase; path = "../../Downloaded-XCFrameworks/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/GoogleMapsBase"; sourceTree = "<group>"; };
+		21063EC2290670E300BC871F /* GoogleMapsBase */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GoogleMapsBase; sourceTree = "<group>"; };
 		21063EC4290670E300BC871F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		21063EC6290670E300BC871F /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
 		21063EC7290670E300BC871F /* GoogleMapsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsBase.h; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 		21063ED62906717500BC871F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		21063ED92906717F00BC871F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
 		21063EDE290671EE00BC871F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		21063EDF290671EE00BC871F /* GoogleMapsCore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = GoogleMapsCore; path = "../../Downloaded-XCFrameworks/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/GoogleMapsCore"; sourceTree = "<group>"; };
+		21063EDF290671EE00BC871F /* GoogleMapsCore */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GoogleMapsCore; sourceTree = "<group>"; };
 		21063EF2290672FB00BC871F /* libm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libm.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/usr/lib/libm.tbd; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -314,7 +314,8 @@
 				21063E6929066E9E00BC871F /* Modules */,
 				21063E3629066E9E00BC871F /* Resources */,
 			);
-			path = GoogleMaps;
+			name = GoogleMaps;
+			path = "../Downloaded-XCFrameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework";
 			sourceTree = "<group>";
 		};
 		21063E2429066B4900BC871F /* GoogleMapsBase */ = {
@@ -324,7 +325,8 @@
 				21063EC5290670E300BC871F /* Headers */,
 				21063EC3290670E300BC871F /* Modules */,
 			);
-			path = GoogleMapsBase;
+			name = GoogleMapsBase;
+			path = "../Downloaded-XCFrameworks/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework";
 			sourceTree = "<group>";
 		};
 		21063E3029066B6400BC871F /* GoogleMapsCore */ = {
@@ -333,7 +335,8 @@
 				21063EDF290671EE00BC871F /* GoogleMapsCore */,
 				21063EDD290671EE00BC871F /* Modules */,
 			);
-			path = GoogleMapsCore;
+			name = GoogleMapsCore;
+			path = "../Downloaded-XCFrameworks/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework";
 			sourceTree = "<group>";
 		};
 		21063E3629066E9E00BC871F /* Resources */ = {
@@ -341,8 +344,7 @@
 			children = (
 				21063E3729066E9E00BC871F /* GoogleMaps.bundle */,
 			);
-			name = Resources;
-			path = "../../Downloaded-XCFrameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		21063E3929066E9E00BC871F /* Headers */ = {
@@ -396,8 +398,7 @@
 				21063E6729066E9E00BC871F /* GMSPolygonLayer.h */,
 				21063E6829066E9E00BC871F /* GMSUISettings.h */,
 			);
-			name = Headers;
-			path = "../../Downloaded-XCFrameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Headers";
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		21063E6929066E9E00BC871F /* Modules */ = {
@@ -405,8 +406,7 @@
 			children = (
 				21063E6A29066E9E00BC871F /* module.modulemap */,
 			);
-			name = Modules;
-			path = "../../Downloaded-XCFrameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Modules";
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		21063EA029066F7B00BC871F /* Frameworks */ = {
@@ -441,8 +441,7 @@
 			children = (
 				21063EC4290670E300BC871F /* module.modulemap */,
 			);
-			name = Modules;
-			path = "../../Downloaded-XCFrameworks/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Modules";
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		21063EC5290670E300BC871F /* Headers */ = {
@@ -453,8 +452,7 @@
 				21063EC8290670E300BC871F /* GMSCompatabilityMacros.h */,
 				21063EC9290670E300BC871F /* GMSCoordinateBounds.h */,
 			);
-			name = Headers;
-			path = "../../Downloaded-XCFrameworks/GoogleMapsBase.xcframework/ios-arm64/GoogleMapsBase.framework/Headers";
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		21063EDD290671EE00BC871F /* Modules */ = {
@@ -462,8 +460,7 @@
 			children = (
 				21063EDE290671EE00BC871F /* module.modulemap */,
 			);
-			name = Modules;
-			path = "../../Downloaded-XCFrameworks/GoogleMapsCore.xcframework/ios-arm64/GoogleMapsCore.framework/Modules";
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
