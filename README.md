@@ -7,3 +7,7 @@
 Этот репозиторий создан с оглядкой на имеющиеся на GitHub проекты ([раз](https://github.com/YAtechnologies/GoogleMaps-SP) и [два](https://github.com/dplisek/GoogleMaps-SP)). Спасибо их создателям за проделанную работу.
 
 Google Maps iOS SDK, а также код в этом репозитории распространяется [по лицензии](https://github.com/dodopizza/google-maps-swift-package/blob/main/LICENSE.google).
+
+# Предупреждение
+
+В репозитории намеренно хостятся только GoogleMaps, GoogleMapsCore и GoogleMapsBase, потому что остальные части Google Maps SDK не используются в Дринките. Добавление недостающих частей SDK при текущем подходе к обновлению библиотек приведёт к тому, что при их обновлении нужно будет делать больше ручной работы, что нежелательно.
