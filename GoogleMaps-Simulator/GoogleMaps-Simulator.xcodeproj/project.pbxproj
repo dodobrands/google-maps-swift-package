@@ -108,6 +108,15 @@
 		218A23C42906764600D9F547 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21063FA1290674FC00BC871F /* UIKit.framework */; };
 		218A23C52906764F00D9F547 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21063FBC2906750E00BC871F /* libz.tbd */; };
 		218A23CB2906797800D9F547 /* libm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 218A23C62906765500D9F547 /* libm.tbd */; };
+		21B9C2D12A77D8B600E9F528 /* GMSCollisionBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2C82A77D8B600E9F528 /* GMSCollisionBehavior.h */; };
+		21B9C2D22A77D8B600E9F528 /* GMSFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2C92A77D8B600E9F528 /* GMSFeature.h */; };
+		21B9C2D32A77D8B600E9F528 /* GMSPinImageGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2CA2A77D8B600E9F528 /* GMSPinImageGlyph.h */; };
+		21B9C2D42A77D8B600E9F528 /* GMSAdvancedMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2CB2A77D8B600E9F528 /* GMSAdvancedMarker.h */; };
+		21B9C2D52A77D8B600E9F528 /* GMSPlaceFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2CC2A77D8B600E9F528 /* GMSPlaceFeature.h */; };
+		21B9C2D62A77D8B600E9F528 /* GMSPinImageOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2CD2A77D8B600E9F528 /* GMSPinImageOptions.h */; };
+		21B9C2D72A77D8B600E9F528 /* GMSFeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2CE2A77D8B600E9F528 /* GMSFeatureLayer.h */; };
+		21B9C2D82A77D8B600E9F528 /* GMSFeatureStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2CF2A77D8B600E9F528 /* GMSFeatureStyle.h */; };
+		21B9C2D92A77D8B600E9F528 /* GMSPinImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2D02A77D8B600E9F528 /* GMSPinImage.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +217,15 @@
 		218A23AC290675A700D9F547 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		218A23B1290675C500D9F547 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		218A23C62906765500D9F547 /* libm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libm.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/usr/lib/libm.tbd; sourceTree = DEVELOPER_DIR; };
+		21B9C2C82A77D8B600E9F528 /* GMSCollisionBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCollisionBehavior.h; sourceTree = "<group>"; };
+		21B9C2C92A77D8B600E9F528 /* GMSFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSFeature.h; sourceTree = "<group>"; };
+		21B9C2CA2A77D8B600E9F528 /* GMSPinImageGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPinImageGlyph.h; sourceTree = "<group>"; };
+		21B9C2CB2A77D8B600E9F528 /* GMSAdvancedMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAdvancedMarker.h; sourceTree = "<group>"; };
+		21B9C2CC2A77D8B600E9F528 /* GMSPlaceFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPlaceFeature.h; sourceTree = "<group>"; };
+		21B9C2CD2A77D8B600E9F528 /* GMSPinImageOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPinImageOptions.h; sourceTree = "<group>"; };
+		21B9C2CE2A77D8B600E9F528 /* GMSFeatureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSFeatureLayer.h; sourceTree = "<group>"; };
+		21B9C2CF2A77D8B600E9F528 /* GMSFeatureStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSFeatureStyle.h; sourceTree = "<group>"; };
+		21B9C2D02A77D8B600E9F528 /* GMSPinImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPinImage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +375,15 @@
 		21063F292906743400BC871F /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				21B9C2CB2A77D8B600E9F528 /* GMSAdvancedMarker.h */,
+				21B9C2C82A77D8B600E9F528 /* GMSCollisionBehavior.h */,
+				21B9C2C92A77D8B600E9F528 /* GMSFeature.h */,
+				21B9C2CE2A77D8B600E9F528 /* GMSFeatureLayer.h */,
+				21B9C2CF2A77D8B600E9F528 /* GMSFeatureStyle.h */,
+				21B9C2D02A77D8B600E9F528 /* GMSPinImage.h */,
+				21B9C2CA2A77D8B600E9F528 /* GMSPinImageGlyph.h */,
+				21B9C2CD2A77D8B600E9F528 /* GMSPinImageOptions.h */,
+				21B9C2CC2A77D8B600E9F528 /* GMSPlaceFeature.h */,
 				21063F2A2906743400BC871F /* GMSPanoramaView.h */,
 				21063F2B2906743400BC871F /* GMSAccessibilityLabels.h */,
 				21063F2C2906743400BC871F /* GMSIndoorBuilding.h */,
@@ -485,6 +512,7 @@
 				21063F742906743400BC871F /* GMSStyleSpan.h in Headers */,
 				21063F882906743400BC871F /* GMSPolygonLayer.h in Headers */,
 				21063F5C2906743400BC871F /* GMSAccessibilityLabels.h in Headers */,
+				21B9C2D82A77D8B600E9F528 /* GMSFeatureStyle.h in Headers */,
 				21063F712906743400BC871F /* GMSCoordinateBounds+GoogleMaps.h in Headers */,
 				21063F6A2906743400BC871F /* GMSMarkerAnimation.h in Headers */,
 				21063F7F2906743400BC871F /* GMSURLTileLayer.h in Headers */,
@@ -493,8 +521,11 @@
 				21063F682906743400BC871F /* GMSMapView+Animation.h in Headers */,
 				21063F7A2906743400BC871F /* GoogleMaps.h in Headers */,
 				21063F642906743400BC871F /* GMSOverlayLayer.h in Headers */,
+				21B9C2D42A77D8B600E9F528 /* GMSAdvancedMarker.h in Headers */,
 				21063F5D2906743400BC871F /* GMSIndoorBuilding.h in Headers */,
+				21B9C2D92A77D8B600E9F528 /* GMSPinImage.h in Headers */,
 				21063F732906743400BC871F /* GMSPanoramaSource.h in Headers */,
+				21B9C2D22A77D8B600E9F528 /* GMSFeature.h in Headers */,
 				21063F5F2906743400BC871F /* GMSMarker.h in Headers */,
 				21063F5E2906743400BC871F /* GMSMapID.h in Headers */,
 				21063F892906743400BC871F /* GMSUISettings.h in Headers */,
@@ -510,11 +541,16 @@
 				21063F672906743400BC871F /* GMSPolyline.h in Headers */,
 				21063F5B2906743400BC871F /* GMSPanoramaView.h in Headers */,
 				21063F652906743400BC871F /* GMSCameraUpdate.h in Headers */,
+				21B9C2D32A77D8B600E9F528 /* GMSPinImageGlyph.h in Headers */,
 				21063F772906743400BC871F /* GMSPanoramaCamera.h in Headers */,
 				21063F872906743400BC871F /* GMSProjection.h in Headers */,
 				21063F862906743400BC871F /* GMSPolygon.h in Headers */,
 				21063F852906743400BC871F /* GMSPanoramaLayer.h in Headers */,
 				21063F7E2906743400BC871F /* GMSPath.h in Headers */,
+				21B9C2D62A77D8B600E9F528 /* GMSPinImageOptions.h in Headers */,
+				21B9C2D72A77D8B600E9F528 /* GMSFeatureLayer.h in Headers */,
+				21B9C2D12A77D8B600E9F528 /* GMSCollisionBehavior.h in Headers */,
+				21B9C2D52A77D8B600E9F528 /* GMSPlaceFeature.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
