@@ -30,17 +30,17 @@ let package = Package(
         .binaryTarget(
             name: "GoogleMaps",
             url: "https://github.com/dodobrands/google-maps-swift-package/releases/download/8.1.0/GoogleMaps.xcframework.zip",
-            checksum: "61e4be6b0e83adc9dd9f3586eb3d9744ccd7eadaba390ea9f4753960f4d96e66"
+            checksum: "920e214123b68e79072132ecfacd0fb3b1474ceecee37004bee7cf76c78f6a32"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
             url: "https://github.com/dodobrands/google-maps-swift-package/releases/download/8.1.0/GoogleMapsBase.xcframework.zip",
-            checksum: "6035e02995d910464f0baba03d5baeaf2e789682173329cc30b8106c67435f20"
+            checksum: "1d83ab5310e91ab10b681e49434fa0be7bccbd14ac5164dae656f70cf513e02b"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
             url: "https://github.com/dodobrands/google-maps-swift-package/releases/download/8.1.0/GoogleMapsCore.xcframework.zip",
-            checksum: "74160de1c29168465ef7a92b180ac1a42e6d01647162b2371899c8c50f74e715"
+            checksum: "e6bea68a0565691486a465835a199236001a3f4302258250cd9897354453d9d1"
         ),
     ]
 )
