@@ -108,15 +108,15 @@
 		21063EF42906732B00BC871F /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; fileRef = 21063EDF290671EE00BC871F /* GoogleMapsCore */; };
 		218A23A72906757500D9F547 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21063ED92906717F00BC871F /* libc++.tbd */; };
 		218A23CA2906796D00D9F547 /* libm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21063EF2290672FB00BC871F /* libm.tbd */; };
-		21B9C2B72A77D80700E9F528 /* GMSAdvancedMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2B62A77D80700E9F528 /* GMSAdvancedMarker.h */; };
-		21B9C2B92A77D82200E9F528 /* GMSCollisionBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2B82A77D82200E9F528 /* GMSCollisionBehavior.h */; };
-		21B9C2C12A77D85B00E9F528 /* GMSFeatureStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BA2A77D85B00E9F528 /* GMSFeatureStyle.h */; };
-		21B9C2C22A77D85B00E9F528 /* GMSFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BB2A77D85B00E9F528 /* GMSFeature.h */; };
-		21B9C2C32A77D85B00E9F528 /* GMSPinImageGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BC2A77D85B00E9F528 /* GMSPinImageGlyph.h */; };
-		21B9C2C42A77D85B00E9F528 /* GMSPinImageOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BD2A77D85B00E9F528 /* GMSPinImageOptions.h */; };
-		21B9C2C52A77D85B00E9F528 /* GMSFeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BE2A77D85B00E9F528 /* GMSFeatureLayer.h */; };
-		21B9C2C62A77D85B00E9F528 /* GMSPlaceFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BF2A77D85B00E9F528 /* GMSPlaceFeature.h */; };
-		21B9C2C72A77D85B00E9F528 /* GMSPinImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2C02A77D85B00E9F528 /* GMSPinImage.h */; };
+		21B9C2B72A77D80700E9F528 /* GMSAdvancedMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2B62A77D80700E9F528 /* GMSAdvancedMarker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2B92A77D82200E9F528 /* GMSCollisionBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2B82A77D82200E9F528 /* GMSCollisionBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2C12A77D85B00E9F528 /* GMSFeatureStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BA2A77D85B00E9F528 /* GMSFeatureStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2C22A77D85B00E9F528 /* GMSFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BB2A77D85B00E9F528 /* GMSFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2C32A77D85B00E9F528 /* GMSPinImageGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BC2A77D85B00E9F528 /* GMSPinImageGlyph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2C42A77D85B00E9F528 /* GMSPinImageOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BD2A77D85B00E9F528 /* GMSPinImageOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2C52A77D85B00E9F528 /* GMSFeatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BE2A77D85B00E9F528 /* GMSFeatureLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2C62A77D85B00E9F528 /* GMSPlaceFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2BF2A77D85B00E9F528 /* GMSPlaceFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B9C2C72A77D85B00E9F528 /* GMSPinImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B9C2C02A77D85B00E9F528 /* GMSPinImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -510,10 +510,8 @@
 				21063E8F29066E9E00BC871F /* GMSGeometryUtils.h in Headers */,
 				21063E7D29066E9E00BC871F /* GMSPanoramaService.h in Headers */,
 				21063E7529066E9E00BC871F /* GMSMarkerLayer.h in Headers */,
-				21B9C2C32A77D85B00E9F528 /* GMSPinImageGlyph.h in Headers */,
 				21063E7E29066E9E00BC871F /* GMSMapStyle.h in Headers */,
 				21063E8629066E9E00BC871F /* GMSStyleSpan.h in Headers */,
-				21B9C2B92A77D82200E9F528 /* GMSCollisionBehavior.h in Headers */,
 				21063E9A29066E9E00BC871F /* GMSPolygonLayer.h in Headers */,
 				21063E6E29066E9E00BC871F /* GMSAccessibilityLabels.h in Headers */,
 				21063E8329066E9E00BC871F /* GMSCoordinateBounds+GoogleMaps.h in Headers */,
@@ -525,8 +523,6 @@
 				21063E8C29066E9E00BC871F /* GoogleMaps.h in Headers */,
 				21063E7629066E9E00BC871F /* GMSOverlayLayer.h in Headers */,
 				21063E6F29066E9E00BC871F /* GMSIndoorBuilding.h in Headers */,
-				21B9C2C72A77D85B00E9F528 /* GMSPinImage.h in Headers */,
-				21B9C2C12A77D85B00E9F528 /* GMSFeatureStyle.h in Headers */,
 				21063E8529066E9E00BC871F /* GMSPanoramaSource.h in Headers */,
 				21063E7129066E9E00BC871F /* GMSMarker.h in Headers */,
 				21063E7029066E9E00BC871F /* GMSMapID.h in Headers */,
@@ -537,20 +533,24 @@
 				21063E9529066E9E00BC871F /* GMSCALayer.h in Headers */,
 				21063E8E29066E9E00BC871F /* GMSSyncTileLayer.h in Headers */,
 				21063E8B29066E9E00BC871F /* GMSAddress.h in Headers */,
-				21B9C2C22A77D85B00E9F528 /* GMSFeature.h in Headers */,
 				21063E8429066E9E00BC871F /* GMSStampStyle.h in Headers */,
-				21B9C2C62A77D85B00E9F528 /* GMSPlaceFeature.h in Headers */,
 				21063E7229066E9E00BC871F /* GMSMapView.h in Headers */,
 				21063E7829066E9E00BC871F /* GMSMapLayer.h in Headers */,
 				21063E7929066E9E00BC871F /* GMSPolyline.h in Headers */,
+				21B9C2C32A77D85B00E9F528 /* GMSPinImageGlyph.h in Headers */,
+				21B9C2B92A77D82200E9F528 /* GMSCollisionBehavior.h in Headers */,
+				21B9C2C72A77D85B00E9F528 /* GMSPinImage.h in Headers */,
+				21B9C2C12A77D85B00E9F528 /* GMSFeatureStyle.h in Headers */,
+				21B9C2C22A77D85B00E9F528 /* GMSFeature.h in Headers */,
+				21B9C2C62A77D85B00E9F528 /* GMSPlaceFeature.h in Headers */,
 				21B9C2B72A77D80700E9F528 /* GMSAdvancedMarker.h in Headers */,
+				21B9C2C42A77D85B00E9F528 /* GMSPinImageOptions.h in Headers */,
+				21B9C2C52A77D85B00E9F528 /* GMSFeatureLayer.h in Headers */,
 				21063E6D29066E9E00BC871F /* GMSPanoramaView.h in Headers */,
 				21063E7729066E9E00BC871F /* GMSCameraUpdate.h in Headers */,
 				21063E8929066E9E00BC871F /* GMSPanoramaCamera.h in Headers */,
 				21063E9929066E9E00BC871F /* GMSProjection.h in Headers */,
 				21063E9829066E9E00BC871F /* GMSPolygon.h in Headers */,
-				21B9C2C42A77D85B00E9F528 /* GMSPinImageOptions.h in Headers */,
-				21B9C2C52A77D85B00E9F528 /* GMSFeatureLayer.h in Headers */,
 				21063E9729066E9E00BC871F /* GMSPanoramaLayer.h in Headers */,
 				21063E9029066E9E00BC871F /* GMSPath.h in Headers */,
 			);
