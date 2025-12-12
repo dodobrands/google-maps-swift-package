@@ -1,4 +1,7 @@
-# GoogleMaps iOS SDK как Swift package
+# [DEPRECATED] GoogleMaps iOS SDK как Swift package
+
+> [!WARNING]
+> Используйте официальный сдк: https://github.com/googlemaps/ios-maps-sdk
 
 Репозиторий со Swift package, позволяющий встроить Google Maps iOS SDK в проект, использующий Swift Package Manager.
 
